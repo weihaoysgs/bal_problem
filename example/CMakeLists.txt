@@ -1,0 +1,2 @@
+add_executable(example_ceres_solver_bal example/bundle_adjustment_ceres.cpp)
+target_link_libraries(example_ceres_solver_bal ${CERES_LIBRARIES} bal_common)
